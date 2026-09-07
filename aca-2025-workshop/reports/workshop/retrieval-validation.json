@@ -1,0 +1,89 @@
+{
+  "k": 8,
+  "questions_hash": "b43affe8ed66d21c6cea0c50c920d4d9e79902c30daa124b596d92313f458a6b",
+  "config": {
+    "schema": 1,
+    "embedding_model": "BAAI/bge-small-en-v1.5",
+    "embedding_revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+    "embedding_query_prefix": "Represent this sentence for searching relevant passages: ",
+    "chunk_tokens": 320,
+    "chunk_overlap": 40,
+    "candidate_k": 30,
+    "final_k": 8,
+    "graph_depth": 2,
+    "rrf_k": 60,
+    "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "max_input_tokens": 4096,
+    "max_new_tokens": 384,
+    "seed": 2025,
+    "numeric_tools": "disabled identically in all comparison conditions"
+  },
+  "summary": [
+    {
+      "namespace": "plans",
+      "method": "bm25",
+      "n": 129,
+      "partial_source_recall_at_k": 0.7571059431524548,
+      "mrr": 0.8478036175710594,
+      "mean_seconds": 0.0010567002098595853
+    },
+    {
+      "namespace": "plans",
+      "method": "semantic",
+      "n": 129,
+      "partial_source_recall_at_k": 0.5441860465116279,
+      "mrr": 0.8342377260981911,
+      "mean_seconds": 0.010024426674572732
+    },
+    {
+      "namespace": "plans",
+      "method": "graph",
+      "n": 129,
+      "partial_source_recall_at_k": 0.8126614987080103,
+      "mrr": 0.8701550387596899,
+      "mean_seconds": 0.001043680558680979
+    },
+    {
+      "namespace": "plans",
+      "method": "hybrid",
+      "n": 129,
+      "partial_source_recall_at_k": 0.923578811369509,
+      "mrr": 0.8785529715762274,
+      "mean_seconds": 0.010120345294803143
+    },
+    {
+      "namespace": "enrollment",
+      "method": "bm25",
+      "n": 45,
+      "partial_source_recall_at_k": 0.6222222222222222,
+      "mrr": 0.1446031746031746,
+      "mean_seconds": 0.000267550933737463
+    },
+    {
+      "namespace": "enrollment",
+      "method": "semantic",
+      "n": 45,
+      "partial_source_recall_at_k": 1.0,
+      "mrr": 0.5613756613756614,
+      "mean_seconds": 0.012025575088369402
+    },
+    {
+      "namespace": "enrollment",
+      "method": "graph",
+      "n": 45,
+      "partial_source_recall_at_k": 0.2,
+      "mrr": 0.048518518518518516,
+      "mean_seconds": 0.00029010837816814374
+    },
+    {
+      "namespace": "enrollment",
+      "method": "hybrid",
+      "n": 45,
+      "partial_source_recall_at_k": 0.8222222222222222,
+      "mrr": 0.22703703703703704,
+      "mean_seconds": 0.0114011573556733
+    }
+  ],
+  "caveat": "Existing citation sets are incomplete relevance judgments. Unresolvable references excluded explicitly. Graph uses lexical seeds. No weights tuned on final test."
+}

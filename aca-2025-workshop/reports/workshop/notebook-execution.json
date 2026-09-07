@@ -1,0 +1,51 @@
+{
+  "notebooks": [
+    {
+      "notebook": "01_documents_default_llm.ipynb",
+      "code_cells": 7,
+      "errors": 0,
+      "overrides": [
+        "INSTALL_DEPENDENCIES = True -> INSTALL_DEPENDENCIES = False",
+        "RUN_LLM = False -> RUN_LLM = True",
+        "DEVICE = \"auto\" -> DEVICE = \"cpu\""
+      ]
+    },
+    {
+      "notebook": "02_hybrid_rag.ipynb",
+      "code_cells": 8,
+      "errors": 0,
+      "overrides": [
+        "INSTALL_DEPENDENCIES = True -> INSTALL_DEPENDENCIES = False",
+        "RUN_LLM = False -> RUN_LLM = True",
+        "DEVICE = \"auto\" -> DEVICE = \"cpu\""
+      ]
+    },
+    {
+      "notebook": "03_fine_tune_llm.ipynb",
+      "code_cells": 6,
+      "errors": 0,
+      "overrides": [
+        "INSTALL_DEPENDENCIES = True -> INSTALL_DEPENDENCIES = False",
+        "RUN_TRAINING = False -> RUN_TRAINING = True",
+        "DEVICE = \"auto\" -> DEVICE = \"cpu\""
+      ]
+    },
+    {
+      "notebook": "04_compare_all.ipynb",
+      "code_cells": 8,
+      "errors": 0,
+      "overrides": [
+        "INSTALL_DEPENDENCIES = True -> INSTALL_DEPENDENCIES = False",
+        "RUN_COMPARISON = False -> RUN_COMPARISON = True",
+        "DEVICE = \"auto\" -> DEVICE = \"cpu\""
+      ]
+    }
+  ],
+  "fresh_kernels": 4,
+  "code_cells": 29,
+  "errors": 0,
+  "device": "CPU",
+  "real_pretrained_model": true,
+  "smoke_training_steps": 2,
+  "scope": "Local Jupyter execution, not Colab browser or CUDA"
+}

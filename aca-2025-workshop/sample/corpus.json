@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "documents_sha256": "bc1695191648e60a786eeeda976a8b7eb83e713ee024ccbbf43bbcd7af814315",
+  "sources": {
+    "data/source_manifest.json": "a067eb5e62689ec37757a6ba37e0480e6d3076fe9fd771ab33694c9b2bbf4b70",
+    "data/reporting_periods.json": "63251c55ec3168d4b25009e6d39657550afe0249be5ea43378630e058dedbe3b",
+    "data/raw/state.csv": "31b0f8adb82f019a96d37c1e1bf259a0682a06ddd86f3c42db196da442ae8107",
+    "data/documents/pages.jsonl": "b9f1469ac9edfa1f7eb556c4c21ea873fd5d70cd17635d57ec08ffbe5f711498",
+    "data/plans_2025/source_manifest.json": "ff56c1ce1c95397341d9bb6350bc1342453bcee99e8d4ca1a5e15e957ac8a7f5",
+    "data/plans_2025/catalog.json": "425b9882555e217ba950c4a9ac19d17180ca96d60faf373c70e377906f6afd9b",
+    "data/plans_2025/sbc_pages.json": "bd8ee367e849f3768b8e5885ce6da81dc718fc18d30ff1e90a846601500b7a5d"
+  },
+  "count": 3991,
+  "embedding_model": "BAAI/bge-small-en-v1.5",
+  "embedding_revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+  "chunk_tokens": 320,
+  "chunk_overlap": 40,
+  "warnings": [],
+  "graph_kind": "explicit source joins and structural document links; no inferred entity facts"
+}

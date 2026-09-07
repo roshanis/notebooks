@@ -1,0 +1,102 @@
+{
+  "groups": [
+    {
+      "namespace": "enrollment",
+      "condition": "base_documents",
+      "attempts": 1,
+      "errors": 0,
+      "successful": 1,
+      "valid_json": 1,
+      "valid_citation_ids": 1,
+      "median_generation_seconds": 25.75682075000077,
+      "context_omissions": 1,
+      "semantic_accuracy": null
+    },
+    {
+      "namespace": "enrollment",
+      "condition": "base_rag",
+      "attempts": 1,
+      "errors": 0,
+      "successful": 1,
+      "valid_json": 0,
+      "valid_citation_ids": 0,
+      "median_generation_seconds": 26.947465792000003,
+      "context_omissions": 0,
+      "semantic_accuracy": null
+    },
+    {
+      "namespace": "plans",
+      "condition": "base_documents",
+      "attempts": 1,
+      "errors": 0,
+      "successful": 1,
+      "valid_json": 1,
+      "valid_citation_ids": 1,
+      "median_generation_seconds": 23.569502792001003,
+      "context_omissions": 1,
+      "semantic_accuracy": null
+    },
+    {
+      "namespace": "plans",
+      "condition": "base_rag",
+      "attempts": 1,
+      "errors": 0,
+      "successful": 1,
+      "valid_json": 0,
+      "valid_citation_ids": 0,
+      "median_generation_seconds": 16.23933499999839,
+      "context_omissions": 0,
+      "semantic_accuracy": null
+    },
+    {
+      "namespace": "enrollment",
+      "condition": "adapter_documents",
+      "attempts": 1,
+      "errors": 0,
+      "successful": 1,
+      "valid_json": 1,
+      "valid_citation_ids": 1,
+      "median_generation_seconds": 27.126298417002545,
+      "context_omissions": 1,
+      "semantic_accuracy": null
+    },
+    {
+      "namespace": "enrollment",
+      "condition": "adapter_rag",
+      "attempts": 1,
+      "errors": 0,
+      "successful": 1,
+      "valid_json": 0,
+      "valid_citation_ids": 0,
+      "median_generation_seconds": 26.054341041999578,
+      "context_omissions": 0,
+      "semantic_accuracy": null
+    },
+    {
+      "namespace": "plans",
+      "condition": "adapter_documents",
+      "attempts": 1,
+      "errors": 0,
+      "successful": 1,
+      "valid_json": 1,
+      "valid_citation_ids": 1,
+      "median_generation_seconds": 23.920321416997467,
+      "context_omissions": 1,
+      "semantic_accuracy": null
+    },
+    {
+      "namespace": "plans",
+      "condition": "adapter_rag",
+      "attempts": 1,
+      "errors": 0,
+      "successful": 1,
+      "valid_json": 0,
+      "valid_citation_ids": 0,
+      "median_generation_seconds": 15.94411987499916,
+      "context_omissions": 0,
+      "semantic_accuracy": null
+    }
+  ],
+  "publication_ready": false,
+  "note": "JSON/citation-ID checks are not answer accuracy. Complete blind manual review."
+}

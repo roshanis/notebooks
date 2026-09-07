@@ -1,0 +1,44 @@
+{
+  "config": {
+    "schema": 1,
+    "embedding_model": "BAAI/bge-small-en-v1.5",
+    "embedding_revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+    "embedding_query_prefix": "Represent this sentence for searching relevant passages: ",
+    "chunk_tokens": 320,
+    "chunk_overlap": 40,
+    "candidate_k": 30,
+    "final_k": 8,
+    "graph_depth": 2,
+    "rrf_k": 60,
+    "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "max_input_tokens": 4096,
+    "max_new_tokens": 384,
+    "seed": 2025,
+    "numeric_tools": "disabled identically in all comparison conditions"
+  },
+  "questions_hash": "ed28e3ff09e11f3a4de81662361e76e7811dbb0e06097fe2b24e22383d7c9461",
+  "corpus_hash": "3d4e82ac4eb778baf789befb6538f9b24c727313c3ed2571b41092817af9f54c",
+  "python": "3.12.14",
+  "packages": {
+    "torch": "2.6.0",
+    "transformers": "4.57.6",
+    "peft": "0.18.1",
+    "trl": "0.24.0",
+    "sentence-transformers": "5.1.2"
+  },
+  "device": "cpu",
+  "index_hash": "738bdb13f9e47d6e733a8531d02cae3e8f2acec2c01cd82d55999f6390d35795",
+  "prompt_schema_hash": "5c963d2f84ce1b9ad1277983273359a14712fcb37eb6f1e65ff33261646f8372",
+  "adapter_smoke_only": true,
+  "policy": "prefix",
+  "conditions": [
+    "base_documents",
+    "base_rag",
+    "adapter_documents",
+    "adapter_rag"
+  ],
+  "adapter_hash": "ac875dae092d7cd1c03c7f9a091f41d9f89ff23e6c90e6a67c4d1a7af0e1dede",
+  "unrun_conditions": [],
+  "cost_usd": null
+}
