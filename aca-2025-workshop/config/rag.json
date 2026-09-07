@@ -1,0 +1,18 @@
+{
+ "schema": 1,
+ "embedding_model": "BAAI/bge-small-en-v1.5",
+ "embedding_revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+ "embedding_query_prefix": "Represent this sentence for searching relevant passages: ",
+ "chunk_tokens": 320,
+ "chunk_overlap": 40,
+ "candidate_k": 30,
+ "final_k": 8,
+ "graph_depth": 2,
+ "rrf_k": 60,
+ "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+ "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+ "max_input_tokens": 4096,
+ "max_new_tokens": 384,
+ "seed": 2025,
+ "numeric_tools": "disabled identically in all comparison conditions"
+}

@@ -1,0 +1,17 @@
+{
+  "files": {
+    "data/training_examples.jsonl": "400cc24b827a24847043fca0aaf37b0617bfd465c10fb03f40e181725132a0e0",
+    "data/validation_examples.jsonl": "0cfe5dabb5ea86a712dde2f0508d99a506f27eef9a742f3e70135b046661c34a",
+    "eval/questions.jsonl": "0ec1310ee862475db578fa19706cc40749e44c01697f32f09c3867b7286537f2",
+    "eval/split_manifest.json": "b7030d9ccda7b55ea48c48189f7debaec75b0ff3494ca93461e3f4a3dbdebf7c",
+    "eval/plans_2025/training.jsonl": "c715f1c72e74777067f7075bd0efe817b83bd2c98db6a3d915d73d45330d28c8",
+    "eval/plans_2025/validation.jsonl": "0643def7eb51a65d93ad033f707875cf7eaec4bc5ba1b428c4c94fb054a4bf02",
+    "eval/plans_2025/questions.jsonl": "b158bef368c55d57da2e83a61f93adfe9db4a96fc595972abd2ea4fb5b38cdff",
+    "eval/plans_2025/split_manifest.json": "211cee45610c0f4c98e15287a7fedf635e9bca439966fcc3794b6dab44ac6f56"
+  },
+  "counts": [
+    326,
+    211,
+    564
+  ]
+}

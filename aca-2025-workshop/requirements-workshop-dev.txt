@@ -1,0 +1,5 @@
+# Additional dependencies for rebuilding and executing notebook validation.
+nbformat==5.10.4
+nbclient==0.10.2
+ipykernel==6.30.1
+jupyter-client==8.10.0

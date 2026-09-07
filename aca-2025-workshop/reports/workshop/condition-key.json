@@ -1,0 +1,34 @@
+{
+  "review-0": {
+    "id": "plans:11512NC0060028-01-maternity",
+    "condition": "adapter_documents"
+  },
+  "review-1": {
+    "id": "plans:11512NC0060028-01-maternity",
+    "condition": "base_documents"
+  },
+  "review-2": {
+    "id": "enrollment:SC-Cnsmr",
+    "condition": "adapter_documents"
+  },
+  "review-3": {
+    "id": "enrollment:SC-Cnsmr",
+    "condition": "base_documents"
+  },
+  "review-4": {
+    "id": "plans:11512NC0060028-01-maternity",
+    "condition": "adapter_rag"
+  },
+  "review-5": {
+    "id": "plans:11512NC0060028-01-maternity",
+    "condition": "base_rag"
+  },
+  "review-6": {
+    "id": "enrollment:SC-Cnsmr",
+    "condition": "adapter_rag"
+  },
+  "review-7": {
+    "id": "enrollment:SC-Cnsmr",
+    "condition": "base_rag"
+  }
+}

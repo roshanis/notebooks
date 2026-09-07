@@ -1,0 +1,46 @@
+{
+  "version": "plans-2025-v3",
+  "year": 2025,
+  "counts": {
+    "train": 26,
+    "validation": 161,
+    "test": 500
+  },
+  "parent_version": "plans-2025-v2",
+  "parent_test_sha256": "690e88e550cc5dba1de5367a7180f152add14db5b703b623908a29ad9616629f",
+  "split_rule": "Disjoint issuer/state groups; v3 is repaired development evidence, not a fresh independent holdout.",
+  "limitations": [
+    "Four test variants, two issuer/state groups; correlated benefit/scenario families",
+    "No model inference or training; references require domain-expert review",
+    "V1/v2 retained in archive; test changes are disclosed, never treated as a fresh unseen test",
+    "Bounded deterministic aliases and explicit profile parsing; arbitrary consumer language remains unproven"
+  ],
+  "test_categories": {
+    "maternity": 4,
+    "specialist": 4,
+    "deductible_and_maximum": 4,
+    "limits_and_exclusions": 4,
+    "gross_premium": 4,
+    "clarification": 4,
+    "plan_comparison": 2,
+    "maternity_reasoning": 2,
+    "plan_identification": 2,
+    "insufficient_evidence": 6,
+    "benefit": 272,
+    "comparison": 64,
+    "premium": 28,
+    "scenario": 48,
+    "conflict": 24,
+    "boundary": 28
+  },
+  "test_actions": {
+    "answer": 428,
+    "clarify": 38,
+    "insufficient_evidence": 34
+  },
+  "sha256": {
+    "eval/plans_2025/training.jsonl": "c715f1c72e74777067f7075bd0efe817b83bd2c98db6a3d915d73d45330d28c8",
+    "eval/plans_2025/validation.jsonl": "0643def7eb51a65d93ad033f707875cf7eaec4bc5ba1b428c4c94fb054a4bf02",
+    "eval/plans_2025/questions.jsonl": "b158bef368c55d57da2e83a61f93adfe9db4a96fc595972abd2ea4fb5b38cdff"
+  }
+}
