@@ -22,3 +22,5 @@ Install `requirements-rag.txt` in an isolated environment when running models. T
 This is a historical educational prototype, not personal insurance or clinical advice. No paid API is required; GPU charges depend on the runtime account. Colab links point to the publication branch so they work before the PR is merged.
 
 The notebook builders and frozen dataset snapshot are included. For example, create new copies with `python scripts/build_four_notebooks.py --corpus sample --output NEW_DIRECTORY`. Executed notebook copies referenced by the original verification report remain in the local development workspace; portable execution summaries, predictions and review records are included here.
+
+Rebuilding/executing notebooks also requires Jupyter tooling: install `requirements-workshop-dev.txt` in the same isolated environment (`python -m pip install -r requirements-rag.txt -r requirements-workshop-dev.txt`). The runtime requirements alone intentionally do not include these development tools.
